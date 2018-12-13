@@ -1,0 +1,1133 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+li.current{
+	box-shadow: 0 10px 15px rgba(0,0,0,0.07);
+	z-index: 2;
+	transform: translate3d(0,-2px,0);
+}
+a{
+	text-decoration:none;
+	color: #515151;
+}
+p {
+    max-height: 100%;
+}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    border: 0;
+}
+body{
+	position: relative;
+	font: 14px/1.5 Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif;
+    color: #515151;
+}
+
+
+
+/*header*/
+
+
+
+#meizu-header-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 999;
+}
+#meizu-header-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+#meizu-header-container .meizu-header {
+    font-size: 14px;
+    position: relative;
+}
+#meizu-header-container .meizu-header-wrap-1240 {
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+    *zoom: 1;
+}
+
+
+/*logo*/
+
+
+
+#meizu-header-container .meizu-header-logo {
+    float: left;
+    padding: 28px 0;
+}
+.meizu-header-logo-img {
+    width: 125px;
+    height: 24px;
+}
+#meizu-header-container a {
+    color: #515151;
+    text-decoration: none;
+}
+#meizu-header-container .meizu-header-logo-img {
+    display: block;
+    width: 125px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.meizu-header-logo-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+}
+#meizu-header-container .meizu-header-logo-img {
+    display: block;
+    width: 125px;
+    height: 24px;
+}
+
+
+
+/*carts*/
+
+
+
+.meizu-header-cart {
+    position: relative;
+    float: right;
+    margin: 27px 0 0 8px;
+    width: 29px;
+    height: 29px;
+    background-image: url(../images/list-cart.png);
+    background-image: -webkit-image-set(url(../images/list-cart.png) 1x,url(../images/list-cart.png) 2x);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 3px;
+    line-height: 10px;
+    background-position-y: center;
+}
+
+#meizu-header-container a {
+    color: #515151;
+    text-decoration: none;
+}
+#meizu-header-cart.meizu-header-cart {
+    color: red;
+}
+.meizu-header-cart em {
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    height: 15px;
+    border-radius: 50%;
+    background: #c00;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 4px;
+    text-indent: 0;
+}
+
+
+
+/*user*/
+
+
+
+#meizu-header-container .meizu-header-user {
+    float: right;
+    padding: 32px 0 0 8px;
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    z-index: 105;
+}
+#meizu-header-container .meizu-header-user-img {
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+}
+#meizu-header-container .meizu-header-user-img img {
+    margin-top: -1px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+#meizu-header-container .meizu-header-user-img img {
+    display: block;
+    width: 29px;
+    height: 29px;
+    margin-top: -5px;
+}
+#meizu-header-container .meizu-header-user-box {
+    display: none;
+    border-bottom: 0;
+    position: absolute;
+    height: 78px;
+    width: 60px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+
+#meizu-header-container ul, #meizu-header-container li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#meizu-header-container .meizu-header-user-dropdown {
+   
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    width: 98px;
+    background-color: #fff;
+    top: 64px;
+    left: 50%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 0;
+    margin-left: -48px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+#meizu-header-container .meizu-header-user li {
+    font-size: 12px;
+    display: block;
+    margin: 15px auto;
+}
+#meizu-header-container .meizu-header-user li:first-child {
+    margin-top: 0;
+}
+#meizu-header-container a {
+    color: #515151;
+    text-decoration: none;
+}
+#meizu-header-container .meizu-header-user li a {
+    position: relative;
+    z-index: 4;
+}
+
+
+
+/*serach*/
+#meizu-header-container .meizu-header-search {
+    position: relative;
+    float: right;
+    margin: 26px 5px 0 10px;
+    width: 170px;
+    height: 30px;
+    line-height: 29px;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+.theme-white #meizu-header-container .meizu-header-search {
+    border-color: transparent;
+}
+#meizu-header-container .meizu-header-search input {
+    display: block;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    width: 127px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    transition: width .5s;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    background: transparent;
+    box-sizing: content-box;
+    outline-offset: 0;
+}
+#meizu-header-container .meizu-header-search a img {
+	position:absolute;
+	top:0px;
+	right:0;
+	width:17px;
+	height:14px;
+    display: block;
+    margin: 7px 5px 0 auto;
+}
+
+
+
+/*link*/
+#meizu-header-container .meizu-header-link {
+    float: right;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#meizu-header-container .meizu-header-link li {
+    float: left;
+}
+#meizu-header-container .meizu-header-link a:hover {
+    color: #31a5e7;
+}
+#meizu-header-container .meizu-header-link a {
+	
+    display: block;
+    padding: 31px 20px 30px;
+    line-height: 21px;
+    font-size: 14px;
+    transition: color .1s linear;
+}
+
+
+
+/*meizu-header-sub*/
+/*306*/
+#meizu-header-container .meizu-header-sub {
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 82px;
+    background-color: #fff;
+    min-width: 100%;
+    overflow: hidden;
+    /*height: 0;*/
+}
+#meizu-header-container .meizu-header-sub-wrap {
+    width: 1240px;
+    margin: 0 auto;
+}
+#meizu-header-container .meizu-header-sub ul {
+    overflow: hidden;
+    padding: 5px 0 20px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#meizu-header-container .meizu-header-sub li {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    filter: alpha(opacity=0);
+    /*opacity: 0;*/
+    *zoom: 1;
+}
+#meizu-header-container .meizu-header-sub a {
+    font-size: 12px;
+    width: 120px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    padding: 0 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+		/* background:url(../images/1.1.jpg) no-repeat; */
+}
+#meizu-header-container .meizu-header-sub a i {
+    display: block;
+   /* width: 120px;
+    height: 120px; */
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 120px;
+  /*  background-image: url(../../images/phone-15.png); */
+}
+#meizu-header-container .meizu-header-sub a img{
+	display:block;
+	width:120px;
+	height:120px;
+}
+
+#meizu-header-container .meizu-header-sub a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: .01;
+    filter: alpha(opacity=1);
+    background-color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+}
+#meizu-header-container .meizu-header-sub a em {
+    display: block;
+    color: #666;
+    font-style: normal;
+}
+
+#meizu-header-container .toggle {
+	background-color:#fff;
+}
+#meizu-header-container .meizu-header-sub-animation{
+	animation:meizu-header-sub-show .5s;
+}
+#meizu-header-container .meizu-header-sub-show{
+	display:block;
+	border-bottom:1px solid #e9e9e9;
+	height:auto;
+}
+
+
+
+
+/*banner*/
+
+
+
+.banner{
+	position: relative;
+    height: 670px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.banner ul{
+	position:relative;
+	z-index: 1;
+}
+.banner ul li{
+	position:absolute;
+    top:0;
+    left:0;
+}
+.banner_img{
+	width:100%;
+	height:670px;
+	display: block;
+}
+.banner ol{
+    width: 500px;
+    padding: 0 10px;
+    height: 25px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -250px;
+    bottom: 20px;
+    text-align: center;
+}
+.banner ol li{
+	display: inline-block;
+    zoom: 1;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.banner ol li.current{
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+
+/*fuliadv*/
+
+
+
+.index-container {
+    background: #f4f4f4;
+    min-width: 1240px;
+    overflow: hidden;
+}
+element.style {
+}
+.index-adv-center {
+    margin-bottom: 50px;
+}
+.section-box {
+    margin-bottom: 50px;
+}
+.index-adv-center .section-box-adv {
+    height: auto;
+    padding-bottom: 45px;
+}
+.section-box-adv {
+	/* top:780px; */
+    height: 450px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.section-box-adv ul {
+    overflow: hidden;
+}
+.index-center-wrapper {
+	width: 1240px;
+	margin: auto;
+}
+.section-box-adv li {
+    float: left;
+    position: relative;
+    width: 25%;
+    text-align:center;
+    padding-top: 45px;
+	pdding-top:0;
+}
+.section-box .box-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-box-adv img {
+    height: 130px;
+}
+element.style {
+}
+.section-box .box-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-box-adv a {
+    width: 100%;
+    height: 100%;
+    transition: all .2s linear;
+}
+.section-box-adv em {
+    display: block;
+    color: #333;
+    font-size: 20px;
+}
+.section-box-adv p {
+    font-size: 14px;
+    color: #999;
+}
+p {
+    max-height: 100%;
+}
+
+
+
+/*phone*/
+/*listen*/
+/*parts*/
+/*house*/
+
+
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-box a {
+    position: relative;
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-box-adv a {
+    width: 100%;
+    height: 100%;
+    transition: all .2s linear;
+}
+.clearfix {
+	overflow:hidden;
+    *zoom: 1;
+}
+.section-phone-box .section-box-row li {
+    float: left;
+    position: relative;
+    width: 303px;
+    height: 375px;
+    margin-right: 9px;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.section-phone-box .section-box-row li.big2, .section-phone-box .section-box-row li.last, .section-phone-box .section-box-row li.Phone6 {
+    margin-right: 0;
+}
+.section-phone-box .section-box-row li.big {
+    width: 615px;
+    height: 610px;
+}
+.section-phone-box .section-box-row li .section-item-box {
+    height: 100%;
+}
+.section-phone-box .section-box-row li.big .box-img {
+    background-size: cover;
+}
+.section-box .box-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.goods-box .goods-img {
+    height: 230px;
+    margin-top: 30px;
+}
+.big .goods-box .goods-img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 460px;
+    margin-left: -250px;
+}
+
+.goods-box .box-info {
+    position: absolute;
+    top: 270px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.section-phone-box .section-box-row li.big .box-info {
+    top: 58px;
+}
+.goods-box .box-info span {
+    display: block;
+}
+.goods-box .box-info .goods-name {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.goods-box .box-info .goods-price {
+    position: relative;
+    display: inline-block;
+    color: #c00;
+    font-size: 22px;
+    padding-left: 14px;
+}
+.goods-box .box-info .goods-price s {
+    font-size: 14px;
+    margin-left: 8px;
+    color: #666;
+}
+.section-phone-box .section-box-row li.big .goods-name {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.goods-box .box-info .goods-desc {
+    color: #999;
+    font-size: 14px;
+}
+.section-phone-box .section-box-row li.big .goods-desc {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.goods-box .box-info .goods-price {
+    position: relative;
+    display: inline-block;
+     color: #c00; 
+    font-size: 22px;
+    padding-left: 14px;
+}
+.goods-box .box-info .goods-price i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 14px;
+}
+i {
+    font-style: normal;
+}
+.goods-box .box-info .goods-price em {
+    font-size: 16px;
+}
+.goods-box .product-sign {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+}
+.goods-box .product-sign.blue {
+    background-color: #2e74f6\0;
+    background-image: linear-gradient(120deg,#2e74f6,#56bdf9);
+}
+.goods-box .product-sign.red {
+    background-color: #ff3149\0;
+    background-image: linear-gradient(120deg,#ff3149,#ff64a6);
+}
+.goods-box .goods-set-img {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-hotsale-box .section-box-row li, .section-comment-box .section-box-row li, .section-video-box .section-box-row li {
+    float: left;
+    position: relative;
+    width: 303px;
+    /*height: 400px;*/
+    margin-right: 9px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.section-comment-box .section-box-row li {
+    height: 388px;
+}
+
+
+
+/*Comment*/
+
+.section-box{
+	mrgin-bottom:50px;
+}
+.section-title{
+	font-size:30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.index-center-wrapper{
+	float:left;
+
+	width:1240px;
+	margin:auto;
+}
+.section-comment-box .section-comment-box li{
+	
+
+	height:388px;
+}
+.section-comment-box .comment-img-wp img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.section-hotsale-box .section-box-row li.last, .section-comment-box .section-box-row li.last, .section-video-box .section-box-row li.last {
+    margin-right: 0;
+}
+.section-hotsale-box .section-box-row li.last, .section-comment-box .section-box-row li.last, .section-video-box .section-box-row li {
+    float:left;
+	position:relative;
+	width:303px;
+	height:400px;
+	margin-right: 9px;
+	background-color:#fff;
+	overflow: hidden;
+	transition:all .3s ease;
+}
+.section-item-box goods-box{
+	float:left;
+}
+.section-comment-box .comment-user-info {
+    overflow: hidden;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.section-comment-box .comment-user-info img {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+.section-comment-box .comment-user-info .comment-username {
+    margin-left: 15px;
+    text-align: left;
+    float: left;
+}
+.section-comment-box p {
+    padding: 10px 15px 15px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    height: 66px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.section-comment-box .comment-tip {
+    color: #999;
+    display: block;
+    padding: 0 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+
+/*Video*/
+
+
+
+.section-video-box .section-box-row li {
+    height: 244px;
+}
+.section-video-box .comment-img-wp>i {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,.5);
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+}
+.section-video-box .comment-img-wp {
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+.section-video-box .comment-img-wp img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.section-video-box p {
+    font-size: 14px;
+    line-height: 55px;
+}
+
+
+
+/*footer*/
+
+
+#meizu-footer {
+    margin: 0;
+    padding: 0;
+    padding-bottom:54px;
+    z-index: 999;
+    font-size: 14px;
+    color: #515151;
+    position: relative;
+    background-color: #fff;
+}
+#meizu-footer .meizu-footer-link {
+    padding: 48px 0 20px;
+    border-top: 1px solid #f1f1f1;
+}
+#meizu-footer .meizu-footer-wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+#meizu-footer .meizu-row {
+    max-width: 1240px;
+    position: relative;
+}
+#meizu-footer .meizu-footer-service {
+    width: 1000px;
+    float: left;
+}
+#meizu-footer .meizu-footer-service li {
+    float: left;
+    text-align: center;
+    width: 15%;
+}
+#meizu-footer .meizu-footer-link a {
+    line-height: 27px;
+    font-size: 12px;
+    color: #666;
+}
+#meizu-footer .meizu-footer-link a:hover {
+    color: #31a5e7;
+}
+#meizu-footer .meizu-footer-service li a {
+    display: block;
+    overflow: hidden;
+}
+#meizu-footer .meizu-footer-service li img {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+#meizu-footer .meizu-footer-service li span {
+    line-height: 30px;
+    color: #999;
+}
+#meizu-footer .onlive-server {
+    float: right;
+    text-align: right;
+    /*margin-top: -18px;*/
+}
+#meizu-footer .onlive-server span {
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+}
+#meizu-footer .onlive-server .tel {
+    color: #00c3f5;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -6px;
+    line-height: 40px;
+}
+#meizu-footer .onlive-server .onlive-btn {
+    height: 30px;
+    padding: 0 16px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 3px;
+    display: inline-block;
+    font-size: 14px;
+    background: #0bbbef;
+}
+#meizu-footer .footer-hr {
+    margin: 10px auto 28px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 0;
+}
+#meizu-footer .meizu-row {
+    max-width: 1240px;
+    position: relative;
+}
+#meizu-footer .meizu-row {
+    max-width: 1240px;
+    position: relative;
+}
+#meizu-footer .meizu-footer-info-left {
+    float: left;
+}
+#meizu-footer .meizu-footer-info-left ul li {
+    padding-right: 15px;
+    border-right: 1px solid #d6d6d6;
+    float: left;
+    height: 18px;
+    margin-right: 15px;
+}
+#meizu-footer .meizu-footer-info a {
+    color: #999;
+}
+#meizu-footer .meizu-footer-info-left ul a {
+    display: block;
+    line-height: 18px;
+}
+#meizu-footer .meizu-footer-info-left .no-border {
+    border: 0;
+    position: relative;
+}
+#meizu-footer .meizu-footer-info-left .meizu-footer-language a {
+    position: relative;
+    display: block;
+    padding-left: 24px;
+}
+i {
+    font-style: normal;
+}
+#meizu-footer .meizu-footer-info-left i {
+    position: relative;
+    top: 4px;
+    *top: 2px;
+    display: inline-block;
+    height: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#meizu-footer .meizu-footer-info-left .meizu-footer-language i {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/chinese.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#meizu-footer .meizu-footer-info-left .meizu-footer-language .icon-lang-logo-cn {
+    background-position: 0 0;
+}
+#modal-lang-body-footer {
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+}
+.lang_list_ {
+    display: none;
+    height: 156px;
+    width: 108px;
+    background: #fff;
+    border: 1px #f1f1f1 solid;
+    z-index: 999;
+}
+.lang_list_ li {
+    padding: 0;
+    margin: 0;
+    height: 37px!important;
+    width: 83%;
+    padding-left: 10px;
+    padding-top: 2px;
+    background: #fff;
+    margin-right: 0!important;
+    border: 0!important;
+    padding-right: 4px!important;
+}
+.lang_list_ li a span {
+    height: 28px;
+    color: #333;
+}
+.meizu-footer-language-wp {
+    float: left;
+}
+.meizu-footer-certificate {
+    padding-top: 8px;
+}
+#ii-subscribe {
+    float: right;
+    margin-top: 25px;
+    position: relative;
+}
+.ii-ml-md {
+    margin-left: 10px;
+}
+#meizu-footer a {
+    color: #515151;
+    text-decoration: none;
+}
+#ii-subscribe a {
+    display: inline-block;
+    *margin-right: 3px;
+}
+.ii-subscribe-img {
+    display: inline-block;
+    width: 21px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ii-subscribe {
+    background-image: url(../../images/weibo.png);
+    background-image: -webkit-image-set(url(../../images/chinese.png));
+}
+
+.ii-hr {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #eee;
+    margin: 0 10px;
+    position: relative;
+    top: 5px;
+    *top: 3px;
+}
+#ii-subscribe a img {
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+    width: 180px;
+    display: none;
+}
+#meizu-footer .meizu-footer-info img {
+    margin-bottom: -9px;
+}
+#widget-lang-choose {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url();
+    z-index: 10000;
+    min-width: 1280px;
+    display: none;
+}
+#widget-lang-choose .modal-lang-box {
+    width: 571px;
+    left: 55%;
+    margin-left: -472px;
+    position: absolute;
+    top: 50%;
+    margin-top: -255px;
+    height: 207px;
+    background: #fff;
+}
+#widget-lang-choose .modal-lang-title {
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    background: #f6f6f6;
+    text-indent: 20px;
+    font-size: 18px;
+    color: #999;
+}
+#widget-lang-choose .modal-lang-title .modal-lang-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    background: url() no-repeat;
+    cursor: pointer;
+}
+#widget-lang-choose .modal-lang-body {
+    padding: 30px;
+}
+#widget-lang-choose .modal-lang-body ul {
+    overflow: hidden;
+    display: flex;
+    width: 666px;
+    margin: 0 auto;
+}
+#meizu-footer .meizu-footer-info-left .footer-info-record i {
+    width: 14px;
+    background-image: url(../../images/jinghui.png);
+}
+#meizu-footer .meizu-footer-info-left i {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    height: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* banner */

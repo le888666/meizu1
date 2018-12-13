@@ -1,0 +1,272 @@
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span, dl, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+div{
+	display: block;
+}
+body{
+	min-height: 800px;
+    background: none;
+    background-color: white;
+    font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #515151;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.fix:after{
+	clear: both;
+	content:"";
+	overflow: hidden;
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+.fix{
+	zoom:1;
+}
+
+#content {
+    width: 100%;
+}
+#header {
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    position: relative; 
+    max-width: 1200px;
+}
+.meizuLogo {
+    float: left;
+    height: 20px;
+    width: 110px;
+    overflow: hidden;
+    display: block;
+}
+a {
+    color: #515151;
+    text-decoration: none;
+}
+.meizuLogo i {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../images/base.png) -2px -4px no-repeat;
+}
+.i_icon {
+    overflow: hidden;
+}
+.banner-box {
+    position: relative;
+    /* overflow: hidden; */
+    min-height: 750px;
+    max-height: 1080px;
+    /* background: linear-gradient(to bottom, #101012, #1A1A1C, #151517); */
+    /*background: #f8fcff;*/
+    background: linear-gradient(to bottom, #f8fcff, #f8fcff, #f8fcff);
+}
+.banner-box:before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/banner.png) no-repeat center;
+    background-size: contain;
+}
+.main-form {
+    right: 220px;
+    top: 14%;
+}
+.main-form {
+    width: 298px;
+    position: absolute;
+    background-color: #FFF;
+    padding: 72px 35px 20px;
+    border-radius: 2px;
+}
+.title {
+    font-size: 18px;
+     margin-bottom: 72px; 
+    text-align: center;
+}
+.linkBlue:hover {
+    color: #008ec7;
+}
+.register-line {
+    color: #B3ABAB;
+    display: inline-block;
+    border: 2px solid #B3ABAB;
+    border-left: 1px;
+    height: 10px;
+    line-height: 20px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+a.linkAGray:link, a.linkAGray:visited {
+    color: #7f7f7f;
+}
+#uname{
+    width:296px;
+    height:46px;
+    background:#fff;
+    border:1px solid #dadada;
+}
+#uname input{
+    width:180px;
+    height:20px;
+    border:none;
+    color:#000000;
+    font-size:14px;
+    display:block;
+    float:left;
+    margin-top:12px;
+    margin-left:12px;
+    outline:0;
+}
+
+
+#upwd{
+    width:296px;
+    height:46px;
+    background:#fff;
+    border:1px solid #dadada;
+    margin-top:20px; 
+}
+#upwd input{
+    width:145px;
+    height:22px;
+    border:none;
+    color:#000000;
+    font-size:14px;
+    display:block;
+    float:left;
+    margin-top:14px;
+    margin-left:12px;
+    outline:0;
+}
+.pointer {
+    cursor: pointer;
+}
+a.linkBlue:link, a.linkBlue:visited {
+    color: #00a7ea;
+}
+#txt{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.main-form .register-btn {
+    width: auto;
+    font-size: 14px;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+}
+a.fullBtnBlue {
+    text-align: center;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: #32a5e7;
+    color: #fff;
+    border-radius: 2px;
+}
+.transferField {
+    margin-bottom: 5px;
+}
+.go2forgetpwd {
+    float: right;
+}
+.rememberFieldForA {
+    margin-left: 90px;
+}
+
+
+#flymeFooter {
+    position: static;
+    border-color: transparent !important;
+}
+.footerWrap {
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    border-top: solid 1px #E5E6E7;
+    background-color: #fff;
+    color: black;
+}
+.footerInner {
+    width: 1000px;
+    margin: 24px auto 30px;
+}
+.footer-layer1 {
+    height: 50px;
+    line-height: 50px;
+}
+.footer-innerLink, .footer-outerLink {
+    float: left;
+}
+.footer-layer1 a:link {
+    color: black;
+}
+.footer-line {
+    background-color: black;
+    margin: 0px 5px;
+    width: 1px;
+    height: 10px;
+}
+.footer-service {
+    float: left;
+    margin-left: 36px;
+}
+.service-label {
+    margin-right: 10px;
+}
+.service-num {
+    margin-right: 20px;
+}
+#service-online {
+    display: inline-block;
+    height: 20px;
+    line-height: 18px;
+    width: 64px;
+    color: white;
+    background-color: #32a5e7;
+    -webkit-border-radius: 2px;
+    text-align: center;
+}
+.footer-outerLink {
+    position: relative;
+    float: right;
+    padding-top: 9px;
+}
+.footer-outerLink a {
+    cursor: pointer;
+}
+.footer-outerLink a {
+    margin-left: 10px;
+    display: inline-block;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+}
+.footer-sinaMblog i {
+    background: url(../images/base.png) no-repeat -218px -91px;
+}
+.footer-weChat i {
+    background: url(../images/base.png) no-repeat -302px -91px;
+}
+.footer-qzone i {
+    background: url(../images/base.png) no-repeat -344px -91px;
+}
+.i_icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
